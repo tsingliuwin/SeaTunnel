@@ -5,6 +5,8 @@
 ##### 第二步：下载Sea Tunnel
 进入下载页（https://seatunnel.apache.org/download/），下载最新版本seatunnel-<version>-bin.tar.gz。
 
+> 快速下载，关注公众号：飞桨PPDB，回复st,获取百度网盘下载链接。
+
 或者直接通过在终端中执行命令
 ```sh
 export version="2.3.1"
