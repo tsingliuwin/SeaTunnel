@@ -1,7 +1,6 @@
 #### 数据源
 罗列Sea Tunnel（2.3.3）已经支持的数据源
-##### [Http](../source/cv2-http.md)
-##### 以上有案例
+
 ##### AmazonDynamoDB
 ##### Cassandra
 ##### Clickhouse
@@ -14,6 +13,7 @@
 ##### Greenplum
 ##### HdfsFile
 ##### Hive
+##### [Http](../source/connector-http.md)
 ##### Hudi
 ##### Apache Iceberg
 ##### InfluxDB

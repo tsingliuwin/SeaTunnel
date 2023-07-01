@@ -6,3 +6,4 @@ nav:
 - 快速开始: quickstart.md
 - Source: 
   - 支持源: source/source-v2.md
+  - Http: source/sonnector-http.md
