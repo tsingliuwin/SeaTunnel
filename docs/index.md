@@ -11,6 +11,8 @@ SeaTunnel国人主导的第一个Apache顶级项目，雄起。
 [https://seatunnel.apache.org](https://seatunnel.apache.org)
 
 ##### SeaTunnel英文文档
+V2.3.2（其它版本可以进入该页面后切换）
+
 [https://seatunnel.apache.org/docs/2.3.2/about](https://seatunnel.apache.org/docs/2.3.2/about)
 
 ##### SeaTunnel下载地址
