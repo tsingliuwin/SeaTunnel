@@ -79,7 +79,7 @@ sink {
 ```
 关于配置文件中的各项参数，会在后续介绍中逐一说明。
 
-##### 运行SeaTunnel应用
+##### 第五步：运行SeaTunnel应用
 ```sh
 cd "apache-seatunnel-${version}"
 ./bin/seatunnel.sh --config ./config/v2.batch.config.template -e local
