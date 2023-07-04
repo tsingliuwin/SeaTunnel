@@ -1,0 +1,88 @@
+#### 介绍Config
+在SeaTunnel，Config文件非常重要，用户可以最大化地定制他们的数据同步方案。所以，接下来，我们将介绍如何配置Config文件。
+
+Config文件最重要的格式是`hocon`，更多介绍可以参考[HOCON-GUIDE](https://github.com/lightbend/config/blob/main/HOCON.md)。同时，SeaTunnel还支持`json`格式，但是config文件命名需要以`.json`结尾。
+
+#### hocon格式
+```sh
+env {
+  job.mode = "BATCH"
+}
+
+source {
+  FakeSource {
+    result_table_name = "fake"
+    row.num = 100
+    schema = {
+      fields {
+        name = "string"
+        age = "int"
+        card = "int"
+      }
+    }
+  }
+}
+
+transform {
+  Filter {
+    source_table_name = "fake"
+    result_table_name = "fake1"
+    fields = [name, card]
+  }
+}
+
+sink {
+  Clickhouse {
+    host = "clickhouse:8123"
+    database = "default"
+    table = "seatunnel_console"
+    fields = ["name", "card"]
+    username = "default"
+    password = ""
+    source_table_name = "fake1"
+  }
+}
+```
+#### json格式
+```sh
+
+{
+  "env": {
+    "job.mode": "batch"
+  },
+  "source": [
+    {
+      "plugin_name": "FakeSource",
+      "result_table_name": "fake",
+      "row.num": 100,
+      "schema": {
+        "fields": {
+          "name": "string",
+          "age": "int",
+          "card": "int"
+        }
+      }
+    }
+  ],
+  "transform": [
+    {
+      "plugin_name": "Filter",
+      "source_table_name": "fake",
+      "result_table_name": "fake1",
+      "fields": ["name", "card"]
+    }
+  ],
+  "sink": [
+    {
+      "plugin_name": "Clickhouse",
+      "host": "clickhouse:8123",
+      "database": "default",
+      "table": "seatunnel_console",
+      "fields": ["name", "card"],
+      "username": "default",
+      "password": "",
+      "source_table_name": "fake1"
+    }
+  ]
+}
+```
