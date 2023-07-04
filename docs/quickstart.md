@@ -86,9 +86,13 @@ cd "apache-seatunnel-${version}"
 ./bin/seatunnel.sh --config ./config/v2.batch.config.template -e local
 ```
 日志输出如下，红框内即为输出到控制台的`name`和`age`。需要理解的是，此处输出的`name`和`age`是根据指定的数据类型`string`和`int`模拟出来的数据，此处不必考虑实际意义。
+
 ![SeaTunnel日志](./img/log-value.png)
+
 为了了解任务执行情况，还可以在控制台找到相关信息
+
 ![SeaTunnel日志](./img/log-infor.png)
+
 从上图可以快速了解到，本次执行从Source读取32条数据，输出到控制台也是32条数据。
 >在实际使用过程中，看日志是不可缺少，熟练看懂日志可以帮助我们快速排查问题并得到解决，关于日志的详细讲解可以关注后续介绍。
 
