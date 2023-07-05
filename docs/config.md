@@ -110,3 +110,10 @@ sink {
 * shade.identifier
 
 #### Source
+定义SeaTunnel从哪里获取数据。支持同时配置多个源，每个源都有特有的参数用于定义如何获取数据。
+
+此处以`FakeSource`数据源为例：
+
+* FakeSource
+
+虚拟数据源，可以根据用户定义的数据结构随机生成数据，仅用于测试场景。
