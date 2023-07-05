@@ -1,7 +1,5 @@
 theme: 
   name: readthedocs
-  static_templates:
-    - sitemap.html
   include_sidebar: false
 site_url: https://seatunnel.eshop88.cn
 site_name: SeaTunnel中文文档
