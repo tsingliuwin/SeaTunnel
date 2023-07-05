@@ -1,12 +1,6 @@
 theme: readthedocs
 site_url: https://seatunnel.eshop88.cn
 site_name: SeaTunnel中文文档
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
 plugins:
   - search
     indexing: 'full'
