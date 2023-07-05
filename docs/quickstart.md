@@ -94,7 +94,7 @@ cd "apache-seatunnel-${version}"
 ![SeaTunnel日志](./img/log-infor.png)
 
 从上图可以快速了解到，本次执行从Source读取32条数据，输出到控制台也是32条数据。
->在实际使用过程中，看日志是不可缺少，熟练看懂日志可以帮助我们快速排查问题并得到解决，关于日志的详细讲解可以关注后续介绍。
+> NOTE在实际使用过程中，看日志是不可缺少，熟练看懂日志可以帮助我们快速排查问题并得到解决，关于日志的详细讲解可以关注后续介绍。
 
 关注我，带你深入了解SeaTunnel技术及应用。
 ![飞桨PPDB](https://ai-studio-static-online.cdn.bcebos.com/e939f12ab7034a069fb4581dec21bb233473ed75fdd543d683982921ddb69167)

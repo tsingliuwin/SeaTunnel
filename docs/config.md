@@ -88,19 +88,19 @@ sink {
 ```
 #### Env
 环境配置
-- job.name
+* job.name
 
 任务名
-- jars
+* jars
 
 使用三方`jars`包，比如：`jars="file://local/jar1.jar;file://local/jar2.jar"`
-- job.mode
+* job.mode
 
 指定任务是批模式还是流模式，`job.mode = "BATCH"`为批模式，`job.mode = "STREAMING"`为流模式
-- checkpoint.interval
-- parallelism
+* checkpoint.interval
+* parallelism
 
 并发数
-- shade.identifier
+* shade.identifier
 
 #### Source
