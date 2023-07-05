@@ -1,6 +1,7 @@
 theme: readthedocs
 site_url: https://seatunnel.eshop88.cn
 site_name: SeaTunnel中文文档
+copyright: Copyright &copy; 2023.
 nav:
 - 主页: index.md
 - 快速开始: quickstart.md
