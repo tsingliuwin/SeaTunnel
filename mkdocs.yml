@@ -7,3 +7,4 @@ nav:
 - Source: 
   - 支持源: source/source-v2.md
   - Http: source/connector-http.md
+  - Kafka2Mysql: source/kafka2mysql.md
