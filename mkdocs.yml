@@ -6,7 +6,7 @@ site_name: SeaTunnel中文文档
 site_description: Apache SeaTunnel 是一个分布式、高性能、易扩展、用于海量数据（离线&实时）同步和转化的数据集成平台。
 copyright: Copyright &copy; 2023.
 nav:
-- 【热销】阿里云服务器99元/年: https://www.aliyun.com/minisite/goods?userCode=m87ienyv
+- 【热销】服务器99元/年: https://www.aliyun.com/minisite/goods?userCode=m87ienyv
 - 主页: index.md
 - 快速开始: quickstart.md
 - Config: config.md
