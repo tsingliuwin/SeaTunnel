@@ -99,7 +99,7 @@ cd "apache-seatunnel-${version}"
 
 【重大福利】
 
-[![阿里云](./img/aliyun99.png)](https://www.aliyun.com/minisite/goods?userCode=m87ienyv)
+[![阿里云](./img/aliyun99.jpg)](https://www.aliyun.com/minisite/goods?userCode=m87ienyv)
 
 
 关注我，带你深入了解SeaTunnel技术及应用。
