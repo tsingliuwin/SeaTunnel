@@ -97,10 +97,5 @@ cd "apache-seatunnel-${version}"
 > NOTE在实际使用过程中，看日志是不可缺少，熟练看懂日志可以帮助我们快速排查问题并得到解决，关于日志的详细讲解可以关注后续介绍。
 
 
-【重大福利】
-
-[![阿里云](./img/aliyun99.jpg)](https://www.aliyun.com/minisite/goods?userCode=m87ienyv)
-
-
 关注我，带你深入了解SeaTunnel技术及应用。
 ![飞桨PPDB](https://ai-studio-static-online.cdn.bcebos.com/e939f12ab7034a069fb4581dec21bb233473ed75fdd543d683982921ddb69167)
